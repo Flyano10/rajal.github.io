@@ -800,6 +800,32 @@ video {
   border-radius: 0.5rem;
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.fade-in-1 {
+  animation-delay: 0s;
+}
+
+.fade-in-2 {
+  animation-delay: 1s;
+}
+
+.fade-in-3 {
+  animation-delay: 2s;
+}
+
+.fade-in-4 {
+  animation-delay: 3s;
+}
+
 .shape {
   fill: #3498db; /* Ubah warna menjadi biru */
   background-color: #3498db; /* Ubah warna menjadi biru */
