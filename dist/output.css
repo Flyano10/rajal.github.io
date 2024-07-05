@@ -1396,4 +1396,34 @@ body {
   }
 }
 
+.team-member {
+  margin: 1rem; /* Menambahkan margin di sekitar setiap anggota tim */
+}
+
+.team-member .member-img {
+  margin-bottom: 1.5rem; /* Menambahkan margin bawah pada gambar anggota tim */
+}
+
+.team-member .member-info {
+  margin-top: 1rem; /* Menambahkan margin atas pada informasi anggota tim */
+}
+
+.team-member .social {
+  margin-top: 1.5rem; /* Menambahkan margin atas pada ikon sosial */
+}
+
+.team-member img {
+  margin: 0 auto; /* Mengatur gambar agar berada di tengah */
+  display: block; /* Mengatur gambar sebagai elemen blok */
+}
+
+.team-member h4 {
+  margin-bottom: 0.5rem; /* Menambahkan margin bawah pada nama anggota tim */
+}
+
+.team-member span {
+  display: block; /* Mengatur span sebagai elemen blok */
+  margin-top: 0.5rem; /* Menambahkan margin atas pada span */
+}
+
 
